@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        h1 div {
+            margin-right: 75px;
+        }
+        
+        .header-content .right-header p {
+            padding: 50px 90px;
+        }
+        
+        .btn-con {
+            display: flex;
+            align-self: center;
+        }
+        
+        .progress-bar .prog-title {
+            width: 180px;
+            height: 180px;
+            background-color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            -webkit-transition: .5s;
+            transition: .5s;
+            position: relative;
+            border-radius: 450px;
+        }
+        
+        .progress-bar img {
+            width: 103px;
+            height: auto;
+            position: relative;
+            background-color: #fff;
+        }
+        
+        .progress-bar img :after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50%;
+            height: 90px;
+            background: hsla(0, 0%, 39.2%, .5);
+            border-radius: 45px 0 0 45px;
+        }
+        
+        .progress-bar {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        @media screen and (max-width: 600px) {
+            .container {
+                padding: 2rem 2.5rem 2rem 1rem !important;
+            }
+        }
+        
+        @media (max-width:799px) {
+            .header-content .right-header p {
+                padding: 50px 80px;
+            }
+            h1 div {
+                margin-right: 0;
+            }
+        }
+        
+        @media (max-width:477px) {
+            h1 div {
+                margin: 5px;
+            }
+            .header-content .right-header p {
+                padding: 50px 30px;
+            }
+            .header-content .right-header {
+                padding: 0px 10px;
+                margin-right: 0px;
+            }
+            .container {
+                padding: 2rem 2.5rem 2rem 0.5rem !important;
+            }
+            .contact-content-con .left-contact .contact-info .contact-item {
+                align-items: start;
+            }
+            .contact-content-con .left-contact p {
+                margin: 1rem 1rem 1rem 0;
+            }
+            .main-title h2 {
+                margin-right: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body class="main-content">
+    <header class="container header active" id="home">
+        <div class="header-content">
+
+            <div class="right-header">
+                <h1 class="name" id="sp1">
+                    Hi, I'm <span>Sundaram Anand.</span>
+                    <div>I am a Competitive Programmer and a Full Stack Web Developer.</div>
+                </h1>
+                <p>
+                    I love to create beautiful and functional websites. I am in my third year pursuing Computer Science and Engineering from IIT(ISM),Dhanbad. I focus on designing and writing efficient and elegant code with new technologies.
+                </p>
+                <div class="btn-con">
+                    <a href="https://docs.google.com/document/d/1tuLIQRtXpyv856aqHvbfE8-u-OLiXt0FpekfAl-6J94/edit?usp=sharing" target="_blank" class="main-btn">
+                        <span class="btn-text">Download CV</span>
+                        <span class="btn-icon"><i class="fas fa-download"></i></span>
+                    </a>
+                </div>
+                <div class="divicon">
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.linkedin.com/in/sundaram-anand-a75781214/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/sundaramanand02"><i class="fab fa-github"></i></a>
+                    <a href="mailto: sundaramanand02@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                    <a href="https://www.youtube.com/channel/UC6OUTllgCec_MHJRis-w-BQ"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="container about" id="about">
+            <div class="main-title">
+                <h2>About <span>me</span><span class="bg-text">my stats</span></h2>
+            </div>
+            <div class="about-container">
+                <div class="left-about">
+                    <h4>Information About me</h4>
+                    <p>
+                        <div style="font-size: 20px">
+                            I am a Fullstack Developer and a Competitive Programmer.I am currently in my pre-final year pursuing Computer Science and Engineering at IIT(ISM) Dhanbad.
+                        </div>
+                        <br>
+                        <div style="font-size: 20px">
+                            I love to create beautifully functional websites with creative vision.I am passionate about learning and logic.I have curiosity for learning new and coming technologies.I enjoy finding solutions to problems.
+                        </div>
+                        <br>
+                        <div style="font-size: 20px">
+                            My projects take use of a wide range of latest skills and technology.My best works are with Javascript, CSS and ReactJS,some of which are included here.
+                        </div>
+                    </p>
+                    <div class="btn-con">
+                        <a href="https://docs.google.com/document/d/1tuLIQRtXpyv856aqHvbfE8-u-OLiXt0FpekfAl-6J94/edit?usp=sharing" target="_blank" class="main-btn">
+                            <span class="btn-text">Download CV</span>
+                            <span class="btn-icon"><i class="fas fa-download"></i></span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="about-stats">
+                <h4 class="stat-title">My Skills</h4>
+                <div class="progress-bars">
+                    <div class="progress-bar">
+                        <div class="prog-title">
+                            <img src="img/HTML5_logo" alt="">
+                        </div>
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="prog-title">
+                            <img src="img/c++.jpg" alt="">
+                        </div>
+                        <h3>C++</h3>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">
+                            <img src="img/1200px-C_Programming_Language.svg.png" alt="">
+                        </p>
+                        <h3>C</h3>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="prog-title">
+                            <img src="img/CSS3_logo1.png" alt="">
+                        </div>
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="prog-title">
+                            <img src="img/javascript_logo.png" alt="">
+                        </div>
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="prog-title">
+                            <img src="img/React-icon.svg.png" alt="">
+                        </div>
+                        <h3>ReactJS</h3>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="prog-title">
+                            <img src="img/nodejs-development-services.webp" alt="">
+                        </div>
+                        <h3>NodeJS</h3>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="prog-title">
+                            <img src="img/1200px-Python.svg.png" alt="">
+                        </div>
+                        <h3>Python</h3>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="prog-title">
+                            <img src="img/mongodb.png" alt="">
+                        </div>
+                        <h3>MongoDB</h3>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="prog-title">
+                            <img src="img/firebase-Logo.png" class='firebase'>
+                        </div>
+                        <h3>Firebase</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row education">
+                <div class="three columns header-col">
+                    <h1 style="padding:30px;text-align: center;"> Education</h1>
+                </div>
+                <div class="nine columns main-col">
+                    <div class="row item">
+                        <div class="twelve columns">
+                            <h2 style="padding:30px; ">Indian Institute of Technology (ISM) Dhanbad</h2>
+                            <p class="info">B.Tech in Computer Science and Engineering<span>•</span> <em class="date">Dec 2020 - May 2024 </em></p>
+                        </div>
+                    </div>
+                    <div class="row item">
+                        <div class="twelve columns">
+                            <h2 style="padding:30px; ">DAV Public School , Pakur </h2>
+                            <p class="info">PCM <span>•</span> <em class="date">April 2018 - May 2020 </em></p>
+                            <p>Scored 90.40%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="container" id="portfolio">
+            <div class="main-title">
+                <h2>My <span>Portfolio</span><span class="bg-text">My Work</span></h2>
+            </div>
+            <p class="port-text">
+                Here is some of my work that I've done in various programming languages.
+            </p>
+            <div class="portfolios">
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/prot.png" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>PortFolio</h3>
+                        <div class="icons">
+                            <a href="#" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/ecom.png" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Ecommerce Website Source</h3>
+                        <div class="icons">
+                            <a href="https://github.com/sundaramanand02/Ecommerce" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/ism.png" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>IIT (ISM) Dhanbad webpage</h3>
+                        <div class="icons">
+                            <a href="https://github.com/sundaramanand02/ISM" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://github.com/sundaramanand02/ISM" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="https://github.com/sundaramanand02/ISM" class="icon">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/quizzer.png" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Online Quiz Website</h3>
+                        <div class="icons">
+                            <a href="https://github.com/sundaramanand02/quizzerapp" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://github.com/sundaramanand02/quizzerapp" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="https://github.com/sundaramanand02/quizzerapp" class="icon">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/todoimg.png" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>To-Do List</h3>
+                        <div class="icons">
+                            <a href="https://github.com/sundaramanand02/ToDo-App" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://github.com/sundaramanand02/ToDo-App" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="https://github.com/sundaramanand02/ToDo-App" class="icon">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/blog.png" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="#" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/port5.jpg" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="#" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container" id="blogs">
+            <div class="blogs-content">
+                <div class="main-title">
+                    <h2>My <span>Blogs</span><span class="bg-text">My Blogs</span></h2>
+                </div>
+                <div class="blogs">
+                    <div class="blog">
+                        <img src="img/port6.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                How to Create Your Own Website
+                            </h4>
+                            <p>
+                                Stop whatever you're doing and ask yourself this simple question: "Do I need a website?" If your response was anything other than "yes," you need to think again. It doesn't matter if you're the head of a multinational corporation who employs thousands
+                                of people or a local mom-and-pop shop from around the way, you need a website to help potential customers find you online. If you have a business, failure to establish an online home is lost revenue. You don't want that.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="img/blog1.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                How to Become an Expert in Web Design
+                            </h4>
+                            <p>
+                                It is important to note however that while Graphic Designers or design roles can focus almost exclusively on creating compelling visuals, Web Designers must balance their design ideas with a variety of technological concerns. And learning web design theory
+                                is different from studying other forms of theoretical learning because the field of web design is constantly changing. That’s why a good Web Designer will commit to continuous learning and upskilling.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="img/blog2.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                Become a Web Designer in 10 Days
+                            </h4>
+                            <p>
+                                To make a website, you must have knowledge of web design coding and to be expert in coding you are required to study web design. But before, studying web designing, you must have knowledge about websites. For different services websites are different.
+                                For example, the design of a website that provides website designing training and another website...
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="img/blog3.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                Debbuging made easy with Web Inspector
+                            </h4>
+                            <p>
+                                Debugging is always been a crucial part of troubleshooting and it is as important as coding for developers, to build good apps, you must be able to debug them effectively, to debug effectively, you must be able to use all of your available tools. Angular
+                                9 with Ivy new debugging APIs have been added to the global “ng” object to make our life easy, so, first of all, let’s see where can we access these
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="img/port1.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                Get started with Web Design and UI Design
+                            </h4>
+                            <p>
+                                h, did we mention there's an entire history of art to draw from? So many movements and artists still shape the work of creatives today — especially web designers. Take a stroll through our Web design and art history piece to discover many monumental artistic
+                                achievements. Not only is filled wi..
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="img/port3.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                This is what you need to know about Web Design
+                            </h4>
+                            <p>
+                                Part artistry and part science, web design taps into both the creative and analytical side of a person's mind. Web designers take what’s conceptual and translate it into visuals. Images, typography, colors, text, negative space, and structure come together
+                                offering not only a user experience but a conduit for communicating ideas. A good web designer understands the significance of each piece of a design. They make choices on a granular level, styling each element, while never
+                                losing sight of how t
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container contact" id="contact">
+            <div class="contact-container">
+                <div class="main-title">
+                    <h2>Contact <span>Me</span><span class="bg-text">Contact</span></h2>
+                </div>
+                <div class="contact-content-con">
+                    <div class="left-contact">
+                        <h4>Contact me here</h4>
+                        <p>
+                            You can contact me by these following credentials or my filling this form .
+                        </p>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Location</span>
+                                </div>
+                                <p>
+                                    : Dhanbad ,Jharkhand ,India
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>Email</span>
+                                </div>
+                                <p>
+                                    <span>: sundaramanand02@gmail.com</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-user-graduate"></i>
+                                    <span>Education</span>
+                                </div>
+                                <p>
+                                    <span>:IIT(ISM) Dhanbad</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-user-graduate"></i>
+                                    <span>Mobile Number</span>
+                                </div>
+                                <p>
+                                    <span>: 6202902640</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-globe-africa"></i>
+                                    <span>Languages</span>
+                                </div>
+                                <p>
+                                    <span>:English , Hindi</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="contact-icons">
+                            <div class="contact-icon">
+                                <a href="www.facebook.com" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-contact">
+                        <form action="" class="contact-form">
+                            <div class="input-control i-c-2">
+                                <input type="text" required placeholder="YOUR NAME">
+                                <input type="email" required placeholder="YOUR EMAIL">
+                            </div>
+                            <div class="input-control">
+                                <input type="text" required placeholder="ENTER SUBJECT">
+                            </div>
+                            <div class="input-control">
+                                <textarea name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
+                            </div>
+                            <div class="submit-btn">
+                                <a href="https://docs.google.com/document/d/1tuLIQRtXpyv856aqHvbfE8-u-OLiXt0FpekfAl-6J94/edit?usp=sharing" target="_blank" class="main-btn">
+                                    <span class="btn-text">Download CV</span>
+                                    <span class="btn-icon"><i class="fas fa-download"></i></span>
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="controls">
+        <div class="control active-btn" data-id="home">
+            <i class="fas fa-home"></i>
+        </div>
+        <div class="control" data-id="about">
+            <i class="fas fa-user"></i>
+        </div>
+        <div class="control" data-id="portfolio">
+            <i class="fas fa-briefcase"></i>
+        </div>
+        <div class="control" data-id="blogs">
+            <i class="far fa-newspaper"></i>
+        </div>
+        <div class="control" data-id="contact">
+            <i class="fas fa-envelope-open"></i>
+        </div>
+    </div>
+    <div class="theme-btn">
+        <i class="fas fa-adjust"></i>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
